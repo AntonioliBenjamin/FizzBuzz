@@ -1,3 +1,4 @@
+//Je n'ai pas typé le FIZZ_NUMBER car j'ajoute un "+" devant mon process.env. ce qui en soit lui donne déjà un type number. || bonne ou mauvaise pratique ?
 const FIZZ_NUMBER = +process.env.FIZZ_NUMBER;
 
 function fizzbuzz(FIZZ_NUMBER: number): string {
